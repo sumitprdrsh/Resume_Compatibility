@@ -1,0 +1,60 @@
+Keywords found in JD: company, client, bods, etl, consultant, sme, month, contract, basis, role, time, ir35, data, team, bau, experience, bo, extract, transform, load, tool, strong, information, steward, bi, management, business, microsoft, office, inc, power, azure
+
+-------------------------------------------------------------------------
+
+Keywords found in CV: abc, xyzxyz, manchester, uk, xyzxyzcom, wwwlinkedincom, xyz, https, wwwxyzcom, skills, etl, extracttransformload, sql, data, analysis, visualization, python, hp, alm, jira, sap, services42, bods, hana, information, steward, tableau, power, bi, github, gitlab, gcp, engineer, work, experience, application, development, senior, analyst, abctechnology, managed, sows, change, bau, production, migration, reinsurance, nontrad, actuarial, created, bo, management, console, month, quality, validation, database, conceptualized, highlevel, job, dataflow, source, target, system, redwood, scheduling, mft, configuration, performance, warranty, support, unit, excel, scripting, manual, effort, analyzed, pipeline, upcoming, planned, rds, structure, optimized, oracle, developer, high, efficiency, reduced, load, time, long, different, ie, preproduction, delivered, retail, functional, area, design, tuning, range, master, store, specific, reporting, transaction, prepared, technical, order, billing, stock, assistant, systems, enhanced, initial, business, microsoft, legacy, r, ods, sbo, pmm, idocs, rfc, lifecycle, integration, testing, environment, creation, test, defect, completed, bw, optimization, software, intern, visual, basic, app, survey, developed, employee, feedback, generate, mitsubishi, other, configured, cisco, vlan, network, troubleshooting, intranet, it, infrastructure, team, security
+
+-------------------------------------------------------------------------
+
+Match Result between JD and CV Keywords
++----------+--------------+----------------------+
+|   Serial | JD Keyword   | JD-CV Match Result   |
+|----------+--------------+----------------------|
+|        0 | company      | No Match             |
+|        1 | client       | No Match             |
+|        2 | bods         | Match                |
+|        3 | etl          | Match                |
+|        4 | consultant   | No Match             |
+|        5 | sme          | No Match             |
+|        6 | month        | Match                |
+|        7 | contract     | No Match             |
+|        8 | basis        | No Match             |
+|        9 | role         | No Match             |
+|       10 | time         | Match                |
+|       11 | ir35         | No Match             |
+|       12 | data         | Match                |
+|       13 | team         | Match                |
+|       14 | bau          | Match                |
+|       15 | experience   | Match                |
+|       16 | bo           | Match                |
+|       17 | extract      | No Match             |
+|       18 | transform    | No Match             |
+|       19 | load         | Match                |
+|       20 | tool         | No Match             |
+|       21 | strong       | No Match             |
+|       22 | information  | Match                |
+|       23 | steward      | Match                |
+|       24 | bi           | Match                |
+|       25 | management   | Match                |
+|       26 | business     | Match                |
+|       27 | microsoft    | Match                |
+|       28 | office       | No Match             |
+|       29 | inc          | No Match             |
+|       30 | power        | Match                |
+|       31 | azure        | No Match             |
++----------+--------------+----------------------+
+
+-------------------------------------------------------------------------
+
+Match percentage based on Keywords: 53.12%
+
+-------------------------------------------------------------------------
+
+Match percentage based on Cosine Similarity: 42.5%
+
+-------------------------------------------------------------------------
+
+Try to include unmatched keywords in your CV to improve the JD-CV compatibility.
+
+-------------------------------------------------------------------------
+

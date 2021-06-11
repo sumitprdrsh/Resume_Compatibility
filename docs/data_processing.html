@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module data_processing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>data_processing</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Csumit%5Conedrive%5Cattachments%5Cpython_projects%5Cjd_cv_compatibility_checker%5Csrc%5Cdata_processing.py">c:\users\sumit\onedrive\attachments\python_projects\jd_cv_compatibility_checker\src\data_processing.py</a></font></td></tr></table>
+    <p><tt>#==========================================================================<br>
+#Read&nbsp;source&nbsp;CV&nbsp;and&nbsp;JD&nbsp;files&nbsp;and&nbsp;write&nbsp;output&nbsp;to&nbsp;a&nbsp;result&nbsp;file<br>
+#==========================================================================</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="nltk.html">nltk</a><br>
+</td><td width="25%" valign=top><a href="spacy.html">spacy</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-clean_text"><strong>clean_text</strong></a>(text)</dt><dd><tt>This&nbsp;function&nbsp;cleans&nbsp;non-ASCII&nbsp;special&nbsp;characters&nbsp;from&nbsp;input&nbsp;text&nbsp;data.<br>
+Input:&nbsp;Text&nbsp;string<br>
+Output:&nbsp;Text&nbsp;string</tt></dd></dl>
+ <dl><dt><a name="-data_load"><strong>data_load</strong></a>(file)</dt><dd><tt>This&nbsp;function&nbsp;reads&nbsp;different&nbsp;types&nbsp;of&nbsp;source&nbsp;files.<br>
+Input:&nbsp;Multiple&nbsp;file&nbsp;types&nbsp;like&nbsp;docx,&nbsp;pdf,&nbsp;txt<br>
+Output:&nbsp;text&nbsp;string</tt></dd></dl>
+ <dl><dt><a name="-filter_token_tag"><strong>filter_token_tag</strong></a>(tagged_token_list, filter_tag_list)</dt><dd><tt>This&nbsp;function&nbsp;filters&nbsp;the&nbsp;tagged&nbsp;token&nbsp;list&nbsp;present&nbsp;in&nbsp;the&nbsp;filter&nbsp;tag&nbsp;list.<br>
+Input:&nbsp;Tagged&nbsp;token&nbsp;list,&nbsp;filter&nbsp;tag&nbsp;list<br>
+Output:&nbsp;List&nbsp;containing&nbsp;tokens&nbsp;corresponding&nbsp;to&nbsp;tags&nbsp;present&nbsp;in&nbsp;the&nbsp;filter&nbsp;tag&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-nltk_keywords"><strong>nltk_keywords</strong></a>(data)</dt><dd><tt>This&nbsp;function&nbsp;contains&nbsp;the&nbsp;NLTK&nbsp;pipeline&nbsp;to&nbsp;detect&nbsp;keywords&nbsp;from&nbsp;input&nbsp;text&nbsp;data.<br>
+Input:&nbsp;Text&nbsp;data<br>
+Output:&nbsp;Keywords</tt></dd></dl>
+ <dl><dt><a name="-nltk_pos_tag"><strong>nltk_pos_tag</strong></a>(token_list)</dt><dd><tt>This&nbsp;function&nbsp;uses&nbsp;the&nbsp;NLTK&nbsp;parts&nbsp;of&nbsp;speech&nbsp;tagger&nbsp;to&nbsp;apply&nbsp;tags&nbsp;to&nbsp;the&nbsp;input&nbsp;token&nbsp;list.<br>
+Input:&nbsp;Token&nbsp;List<br>
+Output:&nbsp;Tagged&nbsp;token&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-nltk_stopwords_removal"><strong>nltk_stopwords_removal</strong></a>(token_list)</dt><dd><tt>This&nbsp;function&nbsp;removes&nbsp;stopwords&nbsp;from&nbsp;the&nbsp;input&nbsp;token&nbsp;list&nbsp;using&nbsp;the&nbsp;NLTK&nbsp;stopwords&nbsp;dictionary.<br>
+Input:&nbsp;Token&nbsp;List<br>
+Output:&nbsp;Stopwords&nbsp;filtered&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-nltk_tokenizer"><strong>nltk_tokenizer</strong></a>(text)</dt><dd><tt>This&nbsp;function&nbsp;uses&nbsp;the&nbsp;NLTK&nbsp;tokeniser&nbsp;to&nbsp;tokenise&nbsp;the&nbsp;input&nbsp;text.<br>
+Input:&nbsp;Text&nbsp;string<br>
+Output:&nbsp;Tokens</tt></dd></dl>
+ <dl><dt><a name="-spacy_keywords"><strong>spacy_keywords</strong></a>(data)</dt><dd><tt>This&nbsp;function&nbsp;contains&nbsp;the&nbsp;spacy&nbsp;pipeline&nbsp;to&nbsp;detect&nbsp;keywords&nbsp;from&nbsp;input&nbsp;text&nbsp;data.<br>
+Input:&nbsp;Text&nbsp;data<br>
+Output:&nbsp;Keywords</tt></dd></dl>
+ <dl><dt><a name="-spacy_pos_tag"><strong>spacy_pos_tag</strong></a>(token_list)</dt><dd><tt>This&nbsp;function&nbsp;uses&nbsp;the&nbsp;spacy&nbsp;parts&nbsp;of&nbsp;speech&nbsp;tagger&nbsp;to&nbsp;apply&nbsp;tags&nbsp;to&nbsp;the&nbsp;input&nbsp;token&nbsp;list.<br>
+Input:&nbsp;Token&nbsp;List<br>
+Output:&nbsp;Tagged&nbsp;token&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-spacy_stopwords_removal"><strong>spacy_stopwords_removal</strong></a>(token_list)</dt><dd><tt>This&nbsp;function&nbsp;removes&nbsp;stopwords&nbsp;from&nbsp;the&nbsp;input&nbsp;token&nbsp;list&nbsp;using&nbsp;the&nbsp;spacy&nbsp;stopwords&nbsp;dictionary.<br>
+Input:&nbsp;Token&nbsp;List<br>
+Output:&nbsp;Stopwords&nbsp;filtered&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-spacy_tokenizer"><strong>spacy_tokenizer</strong></a>(text)</dt><dd><tt>This&nbsp;function&nbsp;uses&nbsp;the&nbsp;spacy&nbsp;tokeniser&nbsp;to&nbsp;tokenise&nbsp;the&nbsp;input&nbsp;text.<br>
+Input:&nbsp;Text&nbsp;string<br>
+Output:&nbsp;Tokens</tt></dd></dl>
+ <dl><dt><a name="-unique_tokens"><strong>unique_tokens</strong></a>(token_list)</dt><dd><tt>This&nbsp;function&nbsp;removes&nbsp;duplicate&nbsp;tokens&nbsp;from&nbsp;the&nbsp;input&nbsp;token&nbsp;list.<br>
+Input:&nbsp;Token&nbsp;list<br>
+Output:&nbsp;Unique&nbsp;token&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-write_file"><strong>write_file</strong></a>(file_name, write_mode, write_string)</dt><dd><tt>This&nbsp;function&nbsp;writes&nbsp;the&nbsp;CV&nbsp;and&nbsp;JD&nbsp;comparison&nbsp;result&nbsp;to&nbsp;an&nbsp;output&nbsp;file.<br>
+Input:&nbsp;Output&nbsp;file&nbsp;name,&nbsp;Write&nbsp;mode,&nbsp;Write&nbsp;string<br>
+Output:&nbsp;Writes&nbsp;result&nbsp;to&nbsp;the&nbsp;output&nbsp;file</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>nlp</strong> = &lt;spacy.lang.en.English object&gt;</td></tr></table>
+</body></html>
