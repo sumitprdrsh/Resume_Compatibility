@@ -1,0 +1,100 @@
+Keywords found in JD: team, cloud, data, engineer, ai, practice, first, group, business, client, strategy, governance, core, engineering, work, culture, success, thinking, career, environment, access, training, network, role, cuttingedge, opportunity, range, job, expertise, technology, revolution, agile, devops, implementation, delivery, communication, experience, design, mentor, fellow, interest, aws, gcp, azure, platform, architecture, spark, scala, python, java, kafka, adviser, ability, thought, process, multilocation, highquality, mdm, metadata, management, quality, lineage, e2e, lifecycle, regulatory, compliance, solution, usability, testing, visualization, literacy, sql
+
+-------------------------------------------------------------------------
+
+Keywords found in resume: abc, xyzxyz, manchester, uk, xyzxyzcom, wwwlinkedincom, xyz, https, wwwxyzcom, skills, etl, extracttransformload, sql, data, analysis, visualization, python, hp, alm, jira, sap, services42, bods, hana, information, steward, tableau, power, bi, github, gitlab, gcp, engineer, work, experience, application, development, senior, analyst, abctechnology, managed, sows, change, bau, production, migration, reinsurance, nontrad, actuarial, created, bo, management, console, month, quality, validation, database, conceptualized, highlevel, job, dataflow, source, target, system, redwood, scheduling, mft, configuration, performance, warranty, support, unit, excel, scripting, manual, effort, analyzed, pipeline, upcoming, planned, rds, structure, optimized, oracle, developer, high, efficiency, reduced, load, time, long, different, ie, preproduction, delivered, retail, functional, area, design, tuning, range, master, store, specific, reporting, transaction, prepared, technical, order, billing, stock, assistant, systems, enhanced, initial, business, microsoft, legacy, r, ods, sbo, pmm, idocs, rfc, lifecycle, integration, testing, environment, creation, test, defect, completed, bw, optimization, software, intern, visual, basic, app, survey, developed, employee, feedback, generate, mitsubishi, other, configured, cisco, vlan, network, troubleshooting, intranet, it, infrastructure, team, security
+
+-------------------------------------------------------------------------
+
+Match Result between JD and Resume Keywords
++----------+----------------+--------------------------+
+|   Serial | JD Keyword     | JD-Resume Match Result   |
+|----------+----------------+--------------------------|
+|        0 | team           | Match                    |
+|        1 | cloud          | No Match                 |
+|        2 | data           | Match                    |
+|        3 | engineer       | Match                    |
+|        4 | ai             | No Match                 |
+|        5 | practice       | No Match                 |
+|        6 | first          | No Match                 |
+|        7 | group          | No Match                 |
+|        8 | business       | Match                    |
+|        9 | client         | No Match                 |
+|       10 | strategy       | No Match                 |
+|       11 | governance     | No Match                 |
+|       12 | core           | No Match                 |
+|       13 | engineering    | No Match                 |
+|       14 | work           | Match                    |
+|       15 | culture        | No Match                 |
+|       16 | success        | No Match                 |
+|       17 | thinking       | No Match                 |
+|       18 | career         | No Match                 |
+|       19 | environment    | Match                    |
+|       20 | access         | No Match                 |
+|       21 | training       | No Match                 |
+|       22 | network        | Match                    |
+|       23 | role           | No Match                 |
+|       24 | cuttingedge    | No Match                 |
+|       25 | opportunity    | No Match                 |
+|       26 | range          | Match                    |
+|       27 | job            | Match                    |
+|       28 | expertise      | No Match                 |
+|       29 | technology     | No Match                 |
+|       30 | revolution     | No Match                 |
+|       31 | agile          | No Match                 |
+|       32 | devops         | No Match                 |
+|       33 | implementation | No Match                 |
+|       34 | delivery       | No Match                 |
+|       35 | communication  | No Match                 |
+|       36 | experience     | Match                    |
+|       37 | design         | Match                    |
+|       38 | mentor         | No Match                 |
+|       39 | fellow         | No Match                 |
+|       40 | interest       | No Match                 |
+|       41 | aws            | No Match                 |
+|       42 | gcp            | Match                    |
+|       43 | azure          | No Match                 |
+|       44 | platform       | No Match                 |
+|       45 | architecture   | No Match                 |
+|       46 | spark          | No Match                 |
+|       47 | scala          | No Match                 |
+|       48 | python         | Match                    |
+|       49 | java           | No Match                 |
+|       50 | kafka          | No Match                 |
+|       51 | adviser        | No Match                 |
+|       52 | ability        | No Match                 |
+|       53 | thought        | No Match                 |
+|       54 | process        | No Match                 |
+|       55 | multilocation  | No Match                 |
+|       56 | highquality    | No Match                 |
+|       57 | mdm            | No Match                 |
+|       58 | metadata       | No Match                 |
+|       59 | management     | Match                    |
+|       60 | quality        | Match                    |
+|       61 | lineage        | No Match                 |
+|       62 | e2e            | No Match                 |
+|       63 | lifecycle      | Match                    |
+|       64 | regulatory     | No Match                 |
+|       65 | compliance     | No Match                 |
+|       66 | solution       | No Match                 |
+|       67 | usability      | No Match                 |
+|       68 | testing        | Match                    |
+|       69 | visualization  | Match                    |
+|       70 | literacy       | No Match                 |
+|       71 | sql            | Match                    |
++----------+----------------+--------------------------+
+
+-------------------------------------------------------------------------
+
+Match percentage based on Keywords: 26.39%
+
+-------------------------------------------------------------------------
+
+Match percentage based on Cosine Similarity: 64.55%
+
+-------------------------------------------------------------------------
+
+Try to include unmatched keywords in your Resume to improve the JD-Resume compatibility.
+
+-------------------------------------------------------------------------
+

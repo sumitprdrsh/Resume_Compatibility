@@ -1,0 +1,42 @@
+As a team:
+
+We have exciting opportunities for a Cloud Data Engineer to join our Data & AI practice, part of larger Cloud First Group. We deliver scalable, business critical and end-to-end solutions for our client - from data strategy/governance to Core Engineering, enabling them to transform and work in Cloud Technologies.
+
+You'll learn, grow and advance in an innovative culture that thrives on shared success, diverse ways of thinking and enables boundaryless opportunities that can drive your career in new and exciting ways
+
+If you’re looking for a challenging career working in a vibrant environment with access to training and a global network of experts, this could be the role for you. As part of our global team, you'll be working with cutting-edge technologies and will have the opportunity to develop a wide range of new skills on the job.
+
+In our team you will learn:
+
+How to grow your skills working on challenging and innovative solutions
+Work on new technologies with demanding clients and grow your expertise
+Work in highly skilled teams advising and supporting our clients through the data and technology revolution
+
+As a Cloud Data Engineer, you will:
+
+Work with client teams to design and implement modern, scalable data solutions using a range of new and emerging technologies
+Work with Agile and DevOps techniques and implementation approaches in the delivery
+Using good communication skills to understand and deliver client requirements
+Bring your experience and ideas to innovative engineering, design and strategy
+Mentor and upskill fellow group members
+Contribute to our internal networks and special interest groups
+
+
+We are looking for experience in the following skills:
+
+Experience in either one or more major cloud (AWS, GCP, Azure) platform architecture, developing data engineering pipelines.
+Experience in Spark (Scala/Python/Java) and Kafka.
+Experience working in a client-facing / consulting environment to build trusted relationships with client stakeholders and act as a trusted adviser.
+Excellent communication (written and oral) and interpersonal skills.
+Ability to apply analytical and creative thought process.
+Proven success in contributing in a multi-location team-oriented environment.
+Proven ability in delivering high-quality deliverables to tight timescales.
+Set yourself apart:
+
+Experience delivering projects within an agile environment.
+Experience in MDM, Metadata Management, Data Quality and Data Lineage tools.
+E2E Data Engineering and Lifecycle (including non-functional requirements and operations) management.
+Regulatory and Compliance work in Data Management
+E2E Data Architecture and Lifecycle (including non-functional requirements and operations) management.
+E2E Solution Design skills - Prototyping, Usability testing and data visualization literacy.
+Experience with SQL and NoSQL modern data stores
