@@ -1,32 +1,33 @@
-# JD-CV Compatibility Checker
-
-JD-CV Compatibility Checker is a simple python program to check the compatibility between a Job description(JD) and Curriculum Vitae(CV). It matches your Resume/CV with the given job description that could help customise the CV for a specific job. The program uses the NLTK and spacy libraries to extract keywords from CV and JD, respectively. Then, it matches the JD-keywords in the CV to give the comparison result. The program generates a detailed report based on the keywords match and cosine similarity between the JD and CV.
+# Resume Compatibility Checker
+Resume Compatibility Checker is a simple python program to check the compatibility between a job description(JD) and a resume. It matches your resume/CV with the given job description that could help customise the resume/CV for a specific job. The program uses the NLTK and spacy libraries to extract keywords from resume/CV and JD. Then, it matches the JD-keywords in the resume/CV to give the comparison result. The program generates a detailed report based on the keywords match and cosine similarity between the JD and resume/CV.
 
 ## Installation
 
 Pre-Requisite: Python 3.1 or higher
-1. Pull the source code into your local directory.
+1. Clone the source code into your local directory.
 2. Create a virtual environment.
 3. Install required libraries (given in requirements.txt) in the virtual environment.
 
 ```python
-pip install virtualenvwrapper-win
-mkvirtualenv [Env name]
-workon [Env name]
-pip install -r requirements.txt 
+git clone https://github.com/sumitprdrsh/Resume_Compatibility.git #For cloning the source code in local directory
+pip install virtualenv #For Unix/Linux
+pip install virtualenvwrapper-win #For windows
+mkvirtualenv [Env name] #Create virtual environment
+workon [Env name] #Activate virtual environment
+pip install -r requirements.txt  #Install required libraries
 ```
 
 ## Execution
-1. Place a single CV file in the directory - data/CV/. The program automatically picks the CV from this directory. The program will throw an error if more than one CV file is placed in this directory.
-2. Place JD files in the directory - data/JD/. The program automatically picks all the JD files from this directory. Note: Multiple JD files can be placed in this directory.
-3. Run the below command in cmd from the root directory, i.e. from the JD_CV_Compatibility_Checker folder.
+1. Place a single resume file in the directory - data/resume/. The program automatically picks the resume from this directory. The program will throw an error if more than one resume file is placed in this directory.
+2. Place job description(JD) files in the directory - data/jd/. The program automatically picks all the JD files from this directory. Note: Multiple JD files can be placed in this directory.
+3. Run the below command in cmd from the root directory, i.e. from the Resume_Compatibility folder.
 
 ```python
 python src/main.py
 ```
 
 ## Usage
-The program will generate a detailed comparison report (as shown below) in the directory - data/Result/. The JD-CV compatibility can be improved by adding the keywords in the CV which are present in JD but not in the CV. A combination of example JD, CV and their comparison report is provided with this program.
+The program will generate a detailed comparison report (as shown below) in the directory - data/Result/. The JD-CV compatibility can be improved by adding the keywords in the CV which are present in JD but not in the CV. An example JD, CV and their comparison report is provided with this program.
 
 ```python
 Match Result between JD and CV Keywords
@@ -80,6 +81,21 @@ Match percentage based on Cosine Similarity: 42.5%
 Try to include unmatched keywords in your CV to improve the JD-CV compatibility.
 
 -------------------------------------------------------------------------
+```
+
+## Testing
+1. The program currently uses the spacy library to pick keywords from JD and uses the NLTK library to select keywords from resumes.
+2. The true-positive(TP) and False-positive(FP) rates in spacy are less than NLTK. Hence, Spacy is used to capture keywords from the JD. It ensures that fewer incorrect keywords are captured from the JD. For resume, NLTK is used as FP rate doesn't matter there.
+3. The table below shows the percentage of TP and FP for multiple combinations of test JD and NLP libraries.
+
+```python
++--------+---------------------+----------------------+--------------------+---------------------+	
+|TEST JD | SPACY TRUE POSITIVE | SPACY FALSE POSITIVE | NLTK TRUE POSITIVE | NLTK FALSE POSITIVE |
++--------+---------------------+----------------------+--------------------+---------------------+
+|  JD1   |        76.2	       |         50.0	      |       90.5	       |        52.5         |
+|  JD2   |        64.5	       |         48.6	      |       77.4	       |        60.9         |
++--------+---------------------+----------------------+--------------------+---------------------+
+
 ```
 
 ## Open Issues and Future Scope

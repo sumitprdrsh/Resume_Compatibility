@@ -29,6 +29,5 @@ $RECYCLE.BIN/
 
 #Directories to ignore
 src/__pycache__/
-#data/CV/**
-#data/JD/**
-#data/Result/**
+test/__pycache__/
+data/

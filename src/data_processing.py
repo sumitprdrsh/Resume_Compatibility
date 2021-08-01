@@ -1,5 +1,5 @@
 #==========================================================================
-#Read source CV and JD files and write output to a result file
+#Read source Resume and Job description(JD) files and write output to a result file
 #==========================================================================
 
 def data_load(file):
@@ -14,7 +14,7 @@ def data_load(file):
 
 def write_file(file_name, write_mode, write_string):
     '''
-    This function writes the CV and JD comparison result to an output file.
+    This function writes the Resume and JD comparison result to an output file.
     Input: Output file name, Write mode, Write string
     Output: Writes result to the output file
     '''
@@ -75,6 +75,7 @@ def nltk_tokenizer(text):
     Input: Text string
     Output: Tokens
     '''
+    nltk.download('punkt')
     from nltk import word_tokenize
     tokens = word_tokenize(text)
     #tokens = text.split()
